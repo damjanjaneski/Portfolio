@@ -2,11 +2,7 @@
   Portfolio Website<br/>
   <a href="https://example.com/" target="_blank">EXAMPLE</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/interface.png" />
-</div>
 
-<br/>
 
 
 ## Built With
