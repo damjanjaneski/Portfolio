@@ -10,8 +10,6 @@ import {
   AiOutlineFile,
 } from "react-icons/ai";
 
-import { GoProjectRoadmap } from "react-icons/go";
-
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -34,6 +32,18 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+        <a href="/">
+          <p
+            style={{
+              fontSize: "25px",
+              color: "purple",
+              paddingTop: "12.8px",
+              fontWeight: "900",
+            }}
+          >
+            DJ
+          </p>
+        </a>
         <Navbar.Brand href="/" className="d-flex"></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
