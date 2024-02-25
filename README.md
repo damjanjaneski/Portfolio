@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://example.com/" target="_blank">EXAMPLE</a>
+  <a href="https://example.com/" target="_blank">NOT READY YET</a>
 </h2>
 
 
