@@ -5,8 +5,12 @@ import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
+  AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineFile,
 } from "react-icons/ai";
+
+import { GoProjectRoadmap } from "react-icons/go";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -30,9 +34,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          
-        </Navbar.Brand>
+        <Navbar.Brand href="/" className="d-flex"></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -61,6 +63,19 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <AiOutlineFile style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
