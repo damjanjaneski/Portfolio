@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import CardComponent from "./ProjectCard";
-import BasicExample from "./ProjectCard";
+import ProjectCard from "./ProjectCard";
+import { projectData } from "./projectsData";
 
 export default function Projects() {
   return (
@@ -25,7 +25,11 @@ export default function Projects() {
         <h1 className="project-heading">
           My<strong className="purple"> Projects </strong>
         </h1>
-        <BasicExample />
+        <div className="projects_container">
+          {projectData.map((project, x) => {
+            return <ProjectCard key={x} project={project} />;
+          })}
+        </div>
       </Container>
     </Container>
   );

@@ -6,3 +6,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
+
+.project {
+  border: 1px solid white;
+  width: 350px;
+  height: 500px;
+  padding: 30px 10px;
+}
+
+.buttons_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects_container {
+}

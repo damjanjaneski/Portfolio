@@ -1,20 +1,28 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
 
-function BasicExample() {
+function ProjectCard({ project }) {
   return (
-    <Card style={{ width: "18rem", background: "transparent !important" }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card
+      style={{
+        backgroundColor: "transparent",
+        width: "18rem",
+        border: "1px solid white",
+        width: "350px",
+      }}
+    >
+      <Card.Img variant="top" src={project.imgUrl} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Title style={{ margin: "25px 10px" }}>{project.title}</Card.Title>
+        <Card.Text>{project.description}</Card.Text>
+      </Card.Body>
+      <ListGroup className="list-group-flush"></ListGroup>
+      <Card.Body>
+        <Card.Link href="#">Card Link</Card.Link>
+        <Card.Link href="#">Another Link</Card.Link>
       </Card.Body>
     </Card>
   );
 }
 
-export default BasicExample;
+export default ProjectCard;
