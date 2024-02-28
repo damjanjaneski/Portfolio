@@ -8,11 +8,17 @@ function ProjectCard({ project }) {
         backgroundColor: "transparent",
         width: "18rem",
         border: "1px solid white",
-        width: "350px",
+        width: "400px",
+        marginBottom: "100px",
+        height: "600px",
       }}
     >
-      <Card.Img variant="top" src={project.imgUrl} />
-      <Card.Body>
+      <Card.Img
+        variant="top"
+        src={project.imgUrl}
+        style={{ height: "42.5%" }}
+      />
+      <Card.Body style={{ height: "50%" }}>
         <Card.Title style={{ margin: "25px 10px" }}>{project.title}</Card.Title>
         <Card.Text>{project.description}</Card.Text>
       </Card.Body>
