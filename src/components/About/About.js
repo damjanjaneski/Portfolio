@@ -11,7 +11,13 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row
+          style={{
+            justifyContent: "center",
+            padding: "10px",
+            marginBottom: "75px",
+          }}
+        >
           <Col
             md={7}
             style={{
@@ -21,7 +27,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I AM</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -39,7 +45,7 @@ function About() {
           >
             <Tilt>
               <img
-                src="https://media.licdn.com/dms/image/C4D03AQHf_gD4kvszLA/profile-displayphoto-shrink_800_800/0/1595455771480?e=2147483647&v=beta&t=SWAOz1D4AYXcxELRdm0AR4EgRtOwGXrRx6GiVtdvxuw"
+                src="http://localhost:3000/picFromMyself.jpg"
                 alt="about"
                 className="img-fluid rounded-circle"
               />

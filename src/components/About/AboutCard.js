@@ -10,23 +10,42 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Damjan Janeski </span>
             from <span className="purple"> Skopje, North Macedonia.</span>
-            <br /> I am a Third Year student pursuing B.E. in Artificial
-            intelligence & Data Science from Pune University.
+            <br /> 28 years old engineer who does his best to successfully join
+            to the developer's world!
             <br />
-            Additionally, I am enthusiastic about Machine Learning.
+            Currently, I'm diving deeper into web development as a Full-Stack
+            JavaScript Developer Intern at Code Desk. Here, I've been working on
+            dynamic and responsive web interfaces, utilizing frameworks like
+            React and Next.js. I'm passionate about continuous learning and
+            contributing to innovative projects.
+            <br />
+            Curiously interested in self-improvement and upgrading my knoledge
+            with additional technologies and frameworks.
+            <br />
+            Let's connect and discuss how we can work together to create amazing
+            things!
             <br />
             <br />
-            Some of my hobbies are
           </p>
+          <h2>Personal hobbies:</h2>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Riding bicycle
             </li>
             <li className="about-activity">
-              <ImPointRight /> Partying
+              <ImPointRight /> Reading books
             </li>
             <li className="about-activity">
-              <ImPointRight /> EDM
+              <ImPointRight /> Fitness
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Swimming
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Fitness
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Traveling
             </li>
           </ul>
         </blockquote>

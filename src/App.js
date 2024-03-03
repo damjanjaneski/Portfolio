@@ -15,6 +15,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./components/MyProjects/Projects";
+import Resume from "./components/Resume/Resume";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -38,7 +39,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
       </div>
