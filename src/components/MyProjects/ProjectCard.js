@@ -4,17 +4,22 @@ import ListGroup from "react-bootstrap/ListGroup";
 function ProjectCard({ project }) {
   return (
     <Card
+      className="card"
       style={{
         border: "1px solid white",
         background: "transparent",
         marginBottom: "50px",
-        height: "600px",
+        height: "700px",
       }}
     >
       <Card.Img
         variant="top"
         src={project.imgUrl}
-        style={{ height: "42.5%" }}
+        style={
+          project.imgUrl === "/static/media/Twenty.f82af6e8944825ec9732.png"
+            ? { height: "39.5%" }
+            : { height: "42.5%" }
+        }
       />
       <Card.Body style={{ height: "50%" }}>
         <Card.Title style={{ margin: "25px 10px" }}>{project.title}</Card.Title>
@@ -27,7 +32,9 @@ function ProjectCard({ project }) {
           class="btn"
           style={{
             marginRight: "25px",
-            width: "41%",
+            marginLeft: "25px",
+            marginBottom: "10px",
+            width: "45%",
             border: "1px solid purple",
             color: "white",
           }}
@@ -40,6 +47,7 @@ function ProjectCard({ project }) {
           class="btn "
           href={project.gitHubUrl}
           style={{
+            marginRight: "25px",
             marginLeft: "25px",
             width: "45%",
             border: "1px solid purple",
