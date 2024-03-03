@@ -35,7 +35,7 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
-                src="http://localhost:3000/resumeImg.jpg"
+                src={`${process.env.REACT_APP_API_URL}/resumeImg.jpg`}
                 style={{ borderRadius: "50%" }}
                 className="img-fluid"
                 alt="avatar"

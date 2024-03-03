@@ -6,7 +6,7 @@ export default function MyPdfViewer() {
     <Container>
       <Card>
         <embed
-          src="http://localhost:3000/resumeDamjan.pdf"
+          src={`${process.env.REACT_APP_API_URL}/resumeDamjan.pdf`}
           type="application/pdf"
           width="100%"
           height="1190px"

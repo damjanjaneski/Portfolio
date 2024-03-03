@@ -5,7 +5,7 @@ import MyPdfViewer from "./PdfPreview";
 
 export default function Resume() {
   const downloadFile = function () {
-    const fileUrl = "http://localhost:3000/resumeDamjan.pdf";
+    const fileUrl = `${process.env.REACT_APP_API_URL}/resumeDamjan.pdf`;
     const fileName = "resumeDamjan.pdf";
 
     const link = document.createElement("a");

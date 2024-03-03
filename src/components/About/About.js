@@ -45,7 +45,7 @@ function About() {
           >
             <Tilt>
               <img
-                src="http://localhost:3000/picFromMyself.jpg"
+                src={`${process.env.REACT_APP_API_URL}/picFromMyself.jpg`}
                 alt="about"
                 className="img-fluid rounded-circle"
               />
