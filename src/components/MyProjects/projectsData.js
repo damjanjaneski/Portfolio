@@ -28,7 +28,7 @@ export const projectData = [
     title: "Personal Library",
     imgUrl: library,
     description:
-      "Simple list of books where you can add, delete od preview all the books you have read or want to read in the future (with some already written examples)",
+      "Simple desktop-version list of books where you can add, delete od preview all the books you have read or want to read in the future (with some already written examples)",
     gitHubUrl: "https://github.com/damjanjaneski/personal-library",
     liveUrl: "https://own-library.netlify.app/",
   },
@@ -44,7 +44,7 @@ export const projectData = [
     title: "First to Twenty",
     imgUrl: twenty,
     description:
-      "A game where 2 players roll a dice. One can throw until he decides it is enough and add all thrown numbers in that set are collected and added to his score. If number 1 is rolled, all previous thrown numbers in that set are lost and the turn is switched to the other player with same rules. Winner is the first player who collects sum of 20!",
+      "Desktop version game where 2 players roll a dice. One can throw until he decides it is enough and add all thrown numbers in that set are collected and added to his score. If number 1 is rolled, all previous thrown numbers in that set are lost and the turn is switched to the other player with same rules. Winner is the first player who collects sum of 20!",
     gitHubUrl: "https://github.com/damjanjaneski/first-to-twenty",
     liveUrl: "https://first-to-twenty.netlify.app/",
   },
@@ -60,7 +60,7 @@ export const projectData = [
     title: "Cocktail Finder",
     imgUrl: cocktails,
     description:
-      " Just type in some cocktail name and all options and variants, will be displayed with all ingredients you need. Perfect assistant for home made cocktails!",
+      " Just type in some cocktail name and all options and variants, will be displayed with all ingredients you need. Perfect assistant for home made cocktails. Desktop-version only! ",
     gitHubUrl: "https://github.com/damjanjaneski/cocktail-finder",
     liveUrl: "https://all-cocktails.netlify.app/",
   },
